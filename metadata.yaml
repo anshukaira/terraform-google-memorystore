@@ -146,8 +146,8 @@ spec:
         varType: string
         connections:
           - source:
-              source: github.com/terraform-google-modules/terraform-google-kms
-              version: ">= 4.1.2"
+              source: github.com/anshukaira/terraform-google-kms
+              version: ">= 4.1.1"
             spec:
               outputExpr: key_id_list[0]
       - name: persistence_config
